@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <div class="container">
+     <div class="title">
+      <h1 class="text-center text-white mt-3">Encriptador JS</h1>
+    </div>
+      <div class="boxes">
+        <div class="row d-flex justify-content-between">       
+            <div class="col-6 card">
+                <div class="card-body">                  
+                  <h6 class="card-subtitle mb-2">Solo letras minusculas, sin acento</h6>
+                  <input type="text" name="encriptar" id="input" placeholder="Ingrese el texto aquí" onkeyup="replace(this)">  
+                  <div class="buttons d-flex justify-content-around">        
+                  <button type="button" class=" encriptar btn btn-primary mt-4" name="encriptar" onclick="encriptar(this)">Encriptar</button>
+                  <button type="button" class=" desencriptar btn btn-primary mt-4" name="desencriptar" onclick="desencriptar(this)">Desencriptar</button>                  
+                </div>
+                </div>  
+              </div>         
+            <div class="col-6 card">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2">Mensaje Encriptado</h6>
+                  <textarea id=resultado name="textarea"></textarea>                
+                    <button type= "button" class="btn btn-primary" onclick="copyToClipBoard()">Copiar</button> 
+                </div>
+              </div>     
+            </div>                 
+      </div>      
+        <div class="row">
+          <div class="col-12 footer">
+            <p class="mt-2">Realizado por Andrés Romero Guzman</p>
+          </div>
+        </div>       
+  </div>
+     <script src="js/main.js"></script> 
+    <script src="js/jquery-3.5.1.min.js"></script>    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

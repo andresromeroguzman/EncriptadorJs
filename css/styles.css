@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/img/images2.jpg'); 
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed;   
+}
+.card {    
+    width: 23rem;
+    height: 12rem;    
+}
+h1, .footer{
+    text-align: center;
+    color: white;
+    background: rgba(63, 52, 52, 0.5);   
+}
+textarea{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.encriptar:hover {
+    background-color: red;
+    text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+    color: red;
+    overflow: hidden;
+    background-image: url('/img/candado.png');
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;    
+}
+.desencriptar:hover {
+    background-color: green;
+    text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+    color: green;
+    overflow: hidden;
+    background-image: url('/img/candado-abierto.png');
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+
+#input{
+    width: 100%;
+    height: 45px;
+    padding: 15px;    
+}
+.boxes {
+    margin: 190px;
+}
+
+.footer p {
+    padding: auto;
+    font-size: 18px;
+}
